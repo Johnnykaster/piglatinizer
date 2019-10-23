@@ -2,5 +2,26 @@
     text-align:center;
 }
 body{
-    background:pink;
+    background: rgb(104,102,128);
+background: linear-gradient(90deg, rgb(190, 190, 190) 0%, rgba(252,4,182,1) 100%);
+}
+.heading {
+    font-family: 'Indie Flower', cursive;
+}
+.input {
+    border: solid 2px;
+}
+#button {
+    border: groove;
+}
+.output {
+    border: solid;
+    height: 20px;
+    width: 100px;
+
+}
+.outputParent {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
 }
